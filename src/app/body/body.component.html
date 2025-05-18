@@ -1,0 +1,10 @@
+<div class="body">
+    <div>Main Body</div>
+    <div>{{welcome}}</div>
+    <img src="https://picsum.photos/seed/picsum/200/300" />
+    <img [src]="imgUrl"/> 
+    <input type="text" name="test" [value]="defaultValue" (input)="eventListener($event)"/>
+    <input type="text" [(ngModel)] = "stValue"/>
+    <p>{{stValue}}</p>
+
+</div>

@@ -1,0 +1,10 @@
+.head{
+    height: 50px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-color: darkgreen;
+    color: white;
+    text-align: center;
+}
